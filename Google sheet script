@@ -1,0 +1,15 @@
+function doGet(e) {
+  // Get the parameters from the URL
+  var temperature = e.parameter.temperature;
+  var humidity = e.parameter.humidity;
+
+  // Open the spreadsheet by its ID
+  var ss = SpreadsheetApp.openById('1D-Bp2WAtiPvSwO5ucdiFCb5MaNvqmlrCtDohKNF39bc');
+  var sheet = ss.getSheetByName('Data Collector'); // Change 'Sheet1' to your sheet name if different
+
+  // Append the data to the spreadsheet
+  sheet.appendRow([new Date(), temperature, humidity]);
+
+  // Return a response
+  return ContentService.createTextOutput('Data received successfully');
+}
