@@ -20,4 +20,4 @@ Components and Tools:
  
 Limitations of Version 1.0:
 
-You must need to connect with wifi, other wise the whole system will not work. You can't even see the temperature and humidity . So be carefull and i will upload the upadated code in the next version and. Moreover i will add power mosfet instead of L298 driver so that we can handle more current. 
+You must need to connect with wifi, other wise the whole system will not work. You can't even see the temperature and humidity . So be carefull and i will upload the upadated code in the next version. Moreover i will add power mosfet instead of L298 driver so that we can handle more current. 
