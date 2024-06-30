@@ -1,4 +1,5 @@
 Smart PID Incubator - Version 1.0
+
 This repository contains the complete Arduino code for my Smart PID-controlled Incubator (Version 1.0).
 
 This project allows you to control the brightness of a DC bulb using a PID control method to maintain a stable temperature and humidity level. Additionally, it supports remote monitoring through the BLYNK IoT platform. You can also configure the system to store real-time temperature and humidity readings in a Google Sheet.
