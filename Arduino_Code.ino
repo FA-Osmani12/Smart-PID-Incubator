@@ -1,3 +1,4 @@
+//past your Blynk IOT template_ID, TEMPLATE_NAME and AUTH_TOKEN here
 #define BLYNK_TEMPLATE_ID "TMPL6w81mPBp8"
 #define BLYNK_TEMPLATE_NAME "DHT22"
 #define BLYNK_AUTH_TOKEN "Bf7Ds8CXCREH-nn_NxV0apGAEElso7mu"
