@@ -14,7 +14,7 @@
 #include <PID_v1.h>
 #include <HTTPClient.h>
 
-// WiFi credentials
+// WiFi credentials(Past your router/internet ssid and password)
 char ssid[] = "V2027";
 char pass[] = "fahim231";
 
@@ -66,8 +66,8 @@ void setup() {
   pinMode(Humidifier, OUTPUT);
   pinMode(DHTPIN, INPUT); 
 
-  digitalWrite(25, HIGH);  // Motor direction
-  digitalWrite(26, LOW);   // Motor direction
+  digitalWrite(25, HIGH);  // 
+  digitalWrite(26, LOW);   // 
 
   // Initialize the PID
   myPID.SetMode(AUTOMATIC);
